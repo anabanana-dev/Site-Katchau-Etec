@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background-color: #1E90FF
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    li{
+        display: inline;
+        padding-left: 20px;
+        font-size: larger;
+        
+    }
+
+    nav{
+        margin: 0;
+        display: flex;
+        background-color: #FFA500;
+        padding: 20px;
+        
+    }
+
+    nav li a{
+       color: black; 
+       padding: 10px;
+       border-radius: 20px;
+    display: inline-block;
+      transition: 1s;
+
+    }
+
+    nav li a:hover{
+        background-color: orangered;
+    }
+
+    .comps1 img{
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 3px 3px 20px 3px black;
+        
+    }
+
+    .comps2 img{
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 3px 3px 20px 3px black;
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        font-family: Cambria, Arial;
+    }
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    form{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    form input{
+        outline:unset;
+        padding: 20px;
+        width: 300px;
+        border:1px solid #FFA500 ;
+        border-radius: 20px;
+    }
+
+    form input:focus{
+        background-color: #87CEEB;
+    }
+
+    .submit input{
+        background-color: #FFA500;
+        cursor: pointer;
+    }
+
+    form label{
+        margin-left: 10px;
+    }
+
+    /* SobreNos */
+    
+    #devs {
+        display: flex;
+    }
+
+    #devs img {
+        border-style: solid;
+        border-width: 8px;
+        border-color: #2764a1;
+        border-radius: 10px;
+        box-shadow: 5px 8px 10px 3px rgb(70, 71, 75);
+        float: left;
+        margin: 30px;
+    }  
+    .Ana {
+        padding: space-around;
+        margin: 40px;
+    }
+
+    .natanael {
+        margin: 40px;
+    }
+
+    .textR {
+        background-color: #FFA500;
+        box-shadow: 3px 3px 5px 3px rgb(70, 71, 75);
+        text-align: center;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px 0px 10px 0px
+    }
+
+    .textR li {
+        list-style: none;
+        margin: 5;
+        padding: 5px;
+        text-align: center;
+        display: block;
+    }
+      
+    /* Monte seu PC */
+
+    table {
+        border-collapse: collapse;
+        border: 3px solid #FFA500;
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        text-align: center;
+        position: relative;
+        margin-left: 50px;
+      }
+      
+      caption {
+        caption-side: top;
+        padding: 10px;
+        font-weight: bold;
+      }
+      
+      thead,
+      tfoot {
+        background-color: rgb(228 240 245);
+      }
+      
+      th,
+      td {
+        border: 1px solid #FFA500;
+        padding: 8px 10px;
+      }
+      
+      td:last-of-type {
+        text-align: center;
+      }
+      .Videos {
+        float: right;
+        display: block;
+        margin-right: 150px;
+        margin-top: 50px;
+      }
+
+
+
